@@ -77,3 +77,12 @@ run the server to check
 bootstrap navbar, dark theme, and customize it
 
 custom css
+
+### Store.html
+
+this page will contain multiple rows and 3 columns per row of product information
+
+create the layout in store.html file
+
+may add dummy product(s) with information
+
