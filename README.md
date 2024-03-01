@@ -89,3 +89,9 @@ may add dummy product(s) with information
 ### Cart.html
 
 get HTML symbol code — [w3school](https://www.w3schools.com/charsets/ref_utf_arrows.asp)
+
+### Checkout.html
+
+create two containers/divisions (div) inside one div (class="row"), one for shipping address (and user's credentials) and another for order summary
+
+for shipping address, create a form
