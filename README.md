@@ -38,7 +38,24 @@ for now, add on the name of each page in h3 tags so we can test them
 
 ### Views
 
-create views, urls and configure urls to base urls file
+create views and urls, and configure urls to base urls
 
 > always check for typos
 
+### Static files
+
+create static files
+
+file structure should look like this static --> css (main.css), images
+
+in settings.py, add STATICFILES_DIRS and point it to the static folder we created, to specify additional directories from which static files should be collected during the [`collectstatic`](https://docs.djangoproject.com/en/5.0/ref/contrib/staticfiles/#collectstatic) management command
+
+add static files (css file) to page (store.html)
+
+`{% load static %}` template tag loads the static template and filters, allowing to use the `{% static %}` template tag to reference static files
+
+`{% static %}` template tag generates the URL for static files (in this case, URL for the static file named 'css/main.css', located at static/css/main.css)
+
+similarly add images/cart.png to page (store.html)
+
+run the server to check if everything works as expected
