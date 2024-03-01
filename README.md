@@ -3,7 +3,10 @@ Building an E-commerce website.
 
 ## Steps
 
-### Set up environment
+### 1 | Project Setup & Templates
+Setup app and templates
+
+##### Set up environment
 
 `virtualenv env`
 
@@ -11,7 +14,7 @@ Building an E-commerce website.
 
 `pip install Django`
 
-### Start project and configure app
+#### Start project and configure app
 
 `django-admin startproject ecommerce .`
 
@@ -21,7 +24,7 @@ add app (store) to INSTALLED_APPS within settings.py ("store.apps.StoreConfig")
 
 run `python manage.py runserver` and open port 8000 to see default django landing page, which confirms that everything is setup correctly
 
-### Templates
+#### Templates
 
 now that store app is configured correctly, let's create templates folder
 
@@ -36,13 +39,13 @@ checkout.html → Checkout page
 
 for now, add on the name of each page in h3 tags so we can test them
 
-### Views
+#### Views
 
 create views and urls, and configure urls to base urls
 
 > always check for typos
 
-### Static files
+#### Static files
 
 create static files
 
@@ -60,7 +63,7 @@ similarly add images/cart.png to page (store.html)
 
 run the server to check if everything works as expected
 
-### Main templates
+#### Main templates
 
 clear store.html and add HTML boilerplate to main.html
 
@@ -72,13 +75,13 @@ make sure to use {% load static %} in all four html files
 
 run the server to check
 
-### Navbar
+#### Navbar
 
 bootstrap navbar, dark theme, and customize it
 
 custom css
 
-### Store.html
+#### Store.html
 
 this page will contain multiple rows and 3 columns per row of product information
 
@@ -86,12 +89,24 @@ create the layout in store.html file
 
 may add dummy product(s) with information
 
-### Cart.html
+#### Cart.html
 
 get HTML symbol code — [w3school](https://www.w3schools.com/charsets/ref_utf_arrows.asp)
 
-### Checkout.html
+#### Checkout.html
 
 create two containers/divisions (div) inside one div (class="row"), one for shipping address (and user's credentials) and another for order summary
 
 for shipping address, create a form
+
+### 2 | Data Structure
+Models and rendering real data in pages
+
+### 3 | Site Functionality
+Build Registered user cart and orders
+
+### 4 | Guest Checkout
+Guest checkout integration with Cookies
+
+### 5 | Payment Integration
+Add payment integrations at checkout
