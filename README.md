@@ -59,3 +59,15 @@ add static files (css file) to page (store.html)
 similarly add images/cart.png to page (store.html)
 
 run the server to check if everything works as expected
+
+### Main templates
+
+clear store.html and add HTML boilerplate to main.html
+
+give title "Ecom", add static file(s) and bootstrap
+
+add {% extends 'store/main.html' %} to all the other pages (store.html, cart.html, checkout.html) as we want to inherit from main.html
+
+make sure to use {% load static %} in all four html files
+
+run the server to check
