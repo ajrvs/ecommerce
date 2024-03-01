@@ -71,3 +71,9 @@ add {% extends 'store/main.html' %} to all the other pages (store.html, cart.htm
 make sure to use {% load static %} in all four html files
 
 run the server to check
+
+### Navbar
+
+bootstrap navbar, dark theme, and customize it
+
+custom css
