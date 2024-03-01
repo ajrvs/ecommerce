@@ -86,3 +86,6 @@ create the layout in store.html file
 
 may add dummy product(s) with information
 
+### Cart.html
+
+get HTML symbol code — [w3school](https://www.w3schools.com/charsets/ref_utf_arrows.asp)
